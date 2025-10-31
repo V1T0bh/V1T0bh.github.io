@@ -6,15 +6,19 @@ title: Vito's Awesome Website
 author:
   name: Vito Benedict Halim
   email: vitobenedicthalim@gmail.com
+  location: Singapore, SG
   github_username:  V1T0bh
+
+socials-link:
+  github: https://www.github.com/V1T0bh
+  linkedin: https://www.linkedin.com/in/vito-benedict-halim-832775308/ 
+  youtube: https://www.youtube.com/@vit0bhalim
 
 # The `>` after `description:` means to ignore line-breaks until next key. If
 #   you wish to omit the line-break after the end of text, use `>-` instead.
 description: >
-  Write an awesome description for your new site here. You can edit this line
-  in _config.yml. It will appear in your document head meta (for Google search
-  results) and in your feed.xml site description.
-
+  This is Vito's personal website made with love. Powered by Jekyll and Minima.
+  Deployed on Github Pages @ V1T0bh.
 
 # Build settings
 # --------------
@@ -72,19 +76,22 @@ minima:
 #     Refer to https://shopify.github.io/liquid/filters/date/ for valid values
 #   date_format: "%b-%d-%Y"
 #
-#   Social Media Links.
-#     Renders icons via Font Awesome Free webfonts CDN, based on ordered list of
-#     entries. Valid entry keys:
-#       * title    Tooltip rendered on hovering over icon.
-#       * icon     Font Awesome icon id. `github` corresponds to `fa-github`.
-#       * url      Full URL of social profile.
-#   social_links:
-#     - title: Minima Theme repository at GitHub
-#       icon: github
-#       url: "https://github.com/jekyll/minima"
-#     - title: Jekyll at X (formerly Twitter)
-#       icon: x-twitter
-#       url: "https://x.com/jekyllrb"
+  # Social Media Links.
+  #   Renders icons via Font Awesome Free webfonts CDN, based on ordered list of
+  #   entries. Valid entry keys:
+  #     * title    Tooltip rendered on hovering over icon.
+  #     * icon     Font Awesome icon id. `github` corresponds to `fa-github`.
+  #     * url      Full URL of social profile.
+  social_links:
+    - title: GitHub Profile
+      icon: github
+      url: "https://www.github.com/V1T0bh"
+    - title: LinkedIn Profile
+      icon: linkedin
+      url: "https://www.linkedin.com/in/vito-benedict-halim-832775308/"
+    - title: YouTube Channel
+      icon: youtube
+      url: "https://www.youtube.com/@vit0bhalim"
 #
 #   Hide syndication feed subscription link.
 #     RSS / Atom feed link is always rendered as the last item of social-links
