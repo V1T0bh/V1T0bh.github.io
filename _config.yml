@@ -20,6 +20,16 @@ description: >
   This is Vito's personal website made with love. Powered by Jekyll and Minima.
   Deployed on Github Pages @ V1T0bh.
 
+# Collections
+collections:
+  modules:
+    output: true
+    permalink: /modules/:path/
+
+# Include the _modules directory
+include:
+  - _modules
+
 # Build settings
 # --------------
 #
@@ -61,12 +71,12 @@ minima:
   #   * solarized          Adaptive skin for solarized color scheme skins.
   skin: dark
 #
-#   Specific pages for site navigation.
-#     If you wish to link only specific pages in the site-navigation, use this
-#     and list the `path` property (as represented via Liquid) of the pages in
-#     the order they should be rendered.
-#   nav_pages:
-#     - about.md
+  # Specific pages for site navigation.
+  #   If you wish to link only specific pages in the site-navigation, use this
+  #   and list the `path` property (as represented via Liquid) of the pages in
+  #   the order they should be rendered.
+  nav_pages:
+    - about.md
 #
 #   Set to `true` to show excerpts on the homepage.
 #   show_excerpts: false
